@@ -1,0 +1,26 @@
+.flexContainer {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  background-color: DodgerBlue;
+}
+
+.flexContainer>div {
+  background-color: #f1f1f1;
+  margin: 5px;
+}
+
+fieldset {
+  margin: 0px;
+  padding: 5px 10px;
+}
+
+legend {
+  margin: 0px;
+  padding: 5px 10px;
+}
+
+.inputField1,
+textarea {
+  border: none;
+}
